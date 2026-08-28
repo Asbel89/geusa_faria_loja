@@ -170,10 +170,12 @@ img{max-width:100%;display:block}
   transition:.2s;min-height:132px;
 }
 .cat-card i{font-size:22px;color:var(--gold-dark);width:44px;height:44px;border-radius:12px;background:#fff;border:1px solid #f0e6d9;display:grid;place-items:center}
+.cat-icon-img{width:44px;height:44px;border-radius:12px;object-fit:cover;border:1px solid #e8ddd0;background:#2e5f5f;flex-shrink:0}
 .cat-card h3{font-family:'Playfair Display',serif;font-size:16px;color:var(--black);margin-top:2px}
 .cat-card span{font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--muted);display:flex;gap:5px;align-items:center}
 .cat-card:hover{border-color:var(--gold);background:#fff;transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.06)}
 .cat-card:hover i{background:var(--black);color:var(--gold);border-color:var(--black)}
+.cat-card:hover .cat-icon-img{border-color:var(--black);transform:scale(1.03)}
 .cat-card.cat-vermais{background:var(--whatsapp);border-color:var(--whatsapp);color:#fff}
 .cat-card.cat-vermais i{background:#fff;color:var(--whatsapp);border-color:#fff}
 .cat-card.cat-vermais h3{color:#fff}
